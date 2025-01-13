@@ -14,4 +14,5 @@ public class User {
     private String userName;
     private Integer userAge;
     private String userEmail;
+    private Boolean isKorean;
 }
