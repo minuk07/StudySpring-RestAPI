@@ -15,4 +15,14 @@ public class User {
     private Integer userAge;
     private String userEmail;
     private Boolean isKorean;
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "userName='" + userName + '\'' +
+                ", userAge=" + userAge +
+                ", userEmail='" + userEmail + '\'' +
+                ", isKorean=" + isKorean +
+                '}';
+    }
 }
